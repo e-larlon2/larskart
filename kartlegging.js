@@ -159,14 +159,22 @@ ctx.moveTo(2300, 200);
 ctx.arc(2200, 200, 100, 0, 2 * Math.PI);
 ctx.fillStyle = "black";
 ctx.fillText("Kantinen", 2130, 200);
-ctx.moveTo(2650, 340);
-ctx.arc(2500, 340, 110, 0, 2 * Math.PI);
-ctx.fillText("Vg1 Elektro", 2400, 350);
-ctx.fillStyle = "white";
-ctx.fillRect(2650, 320, 200, 50);
-ctx.fillStyle = "black";
-ctx.fillText("Rom v101", 2660, 360);
 
+ctx.moveTo(2585, 380);
+ctx.arc(2420, 340, 110, 0, 2 * Math.PI);
+ctx.fillText("Vg1 Elektro", 2320, 350);
+ctx.fillStyle = "white";
+ctx.fillRect(2580, 360, 200, 50);
+ctx.fillStyle = "black";
+ctx.fillText("Rom v101", 2590, 400);
+
+ctx.moveTo(2740, 245);
+ctx.arc(2595, 210, 110, 0, 2 * Math.PI);
+ctx.fillText("Vg2 Elektro", 2495, 220);
+ctx.fillStyle = "white";
+ctx.fillRect(2700, 240, 200, 50);
+ctx.fillStyle = "black";
+ctx.fillText("Rom v105", 2710, 280);
 
 //2. etg i teoribygget
 ctx.moveTo(2900, 600);
@@ -251,7 +259,7 @@ ctx.fillRect(30, 1200, 50, 50);
 ctx.fillStyle = "white";
 ctx.fillText("2", 45, 1240);
 ctx.fillStyle = "black";
-ctx.fillText("teknikk og industriell produskjon", 100, 1240);
+ctx.fillText("Teknologi- og Industri fag", 100, 1240);
 
 // 3
 ctx.fillStyle = "red";
@@ -259,7 +267,7 @@ ctx.fillRect(30, 1300, 50, 50);
 ctx.fillStyle = "white";
 ctx.fillText("3", 45, 1340);
 ctx.fillStyle = "black";
-ctx.fillText("Elektro", 100, 1340);
+ctx.fillText("Elektro & datateknologi", 100, 1340);
 
 // 4
 ctx.fillStyle = "red";
@@ -299,7 +307,8 @@ ctx.fillRect(730, 1400, 50, 50);
 ctx.fillStyle = "white";
 ctx.fillText("8", 745, 1440);
 ctx.fillStyle = "black";
-ctx.fillText("Vg1 Elektro 1.etg", 800, 1440);
+ctx.fillText("Vg1 Elektro 1.etg", 800, 1420);
+ctx.fillText("Vg2 Elektro 1.etg", 800, 1470);
 
 //9
 ctx.fillStyle = "red";
@@ -323,7 +332,7 @@ ctx.moveTo(20, 1500);
 ctx.lineTo(2000, 1500);
 
 //tekst
-ctx.fillText("Dette er et kart over skolen idag med stasjoner dere kan besøke. og det til venstre vise insiden av teoribygget", 50, 1600)
-ctx.fillText("Ha en fin dag videre", 700, 1700)
+ctx.fillText("Dette er et kart over skolen med stasjoner dere kan besøke. Det til høyre vise insiden av teoribygget", 50, 1600)
+ctx.fillText("Ha en fin dag videre :)", 700, 1700)
 
 ctx.stroke();
